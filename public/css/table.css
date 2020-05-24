@@ -110,9 +110,11 @@
 }
 
 .card-wrapper {
-    position: relative;
+/*     position: relative; */
     display: block;
-    margin: auto;
+    margin-lef: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
     background-color: white;
     opacity: 0.9;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
@@ -143,7 +145,7 @@
 .card-left {
     /*position: relative;*/
     display: block;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-right: 800px;
     background-color: white;
     opacity: 0.9;
@@ -159,8 +161,8 @@
 .card-right {
     /*position: relative;*/
     display: block;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 800px;
+    margin-right: 60px;
     background-color: white;
     opacity: 0.9;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
