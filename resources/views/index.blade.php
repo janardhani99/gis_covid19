@@ -81,7 +81,7 @@
                     Color Start
                     <input type="color" value="#E5000D" class="form-control" id="colorStart">
                 </div>
-                <div class="card-left
+                <div class="card-right
                     Color End
                     <input type="color" value="#FFFFFF" class="form-control" id="colorEnd">
                 </div>
