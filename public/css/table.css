@@ -159,8 +159,8 @@
 .card-right {
     /*position: relative;*/
     display: block;
-    margin-right: 300px;
     margin-left: 300px;
+    margin-right: 300px;
     background-color: white;
     opacity: 0.9;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
