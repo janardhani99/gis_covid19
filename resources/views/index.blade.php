@@ -289,28 +289,28 @@
                             covids +='  </tr>';              
 
               
-                            // covids +='  <tr style="color:red">';
-                            // covids +='    <td>Positif</td>';
-                            // covids +='    <td>: '+dataMap[index].positif+'</td>';
-                            // covids +='  </tr>';
+                            covids +='  <tr style="color:red">';
+                            covids +='    <td>Positif</td>';
+                            covids +='    <td>: '+dataMap[index].positif+'</td>';
+                            covids +='  </tr>';
 
 
-                            // covids +='  <tr style="color:blue">';
-                            // covids +='    <td>Dalam Perawatan</td>';
-                            // covids +='    <td>: '+dataMap[index].rawat+'</td>';
-                            // covids +='  </tr>';
+                            covids +='  <tr style="color:blue">';
+                            covids +='    <td>Dalam Perawatan</td>';
+                            covids +='    <td>: '+dataMap[index].rawat+'</td>';
+                            covids +='  </tr>';
                             
 
-                            // covids +='  <tr style="color:green">';
-                            // covids +='    <td>Sembuh</td>';
-                            // covids +='    <td>: '+dataMap[index].sembuh+'</td>';
+                            covids +='  <tr style="color:green">';
+                            covids +='    <td>Sembuh</td>';
+                            covids +='    <td>: '+dataMap[index].sembuh+'</td>';
                             // covids +='  </tr>'; 
 
 
-                            // covids +='  <tr style="color:black">';
-                            // covids +='    <td>Meninggal</td>';
-                            // covids +='    <td>: '+dataMap[index].meninggal+'</td>';
-                            // covids +='  </tr>';
+                            covids +='  <tr style="color:black">';
+                            covids +='    <td>Meninggal</td>';
+                            covids +='    <td>: '+dataMap[index].meninggal+'</td>';
+                            covids +='  </tr>';
 
           
                             covids +='</table>';
