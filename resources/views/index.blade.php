@@ -177,7 +177,7 @@
                 var colorEnd = $('#colorEnd').val();
                 $.ajax({
                     async:false,
-                    url:'/create-pallete',
+                    url:'create-pallete',
                     type:'get',
                     dataType:'json',
                     covids:{start: colorStart, end:colorEnd},
@@ -285,25 +285,25 @@
                             covids +='  </tr>';              
 
               
-                            covids +='  <tr style="color:red">';
+                            covids +='  <tr>';
                             covids +='    <td>Positif</td>';
                             covids +='    <td>: '+dataMap[index].positif+'</td>';
                             covids +='  </tr>';
 
 
-                            covids +='  <tr style="color:blue">';
+                            covids +='  <tr>';
                             covids +='    <td>Dalam Perawatan</td>';
                             covids +='    <td>: '+dataMap[index].rawat+'</td>';
                             covids +='  </tr>';
                             
 
-                            covids +='  <tr style="color:green">';
+                            covids +='  <tr>';
                             covids +='    <td>Sembuh</td>';
                             covids +='    <td>: '+dataMap[index].sembuh+'</td>';
                             // covids +='  </tr>'; 
 
 
-                            covids +='  <tr style="color:black">';
+                            covids +='  <tr>';
                             covids +='    <td>Meninggal</td>';
                             covids +='    <td>: '+dataMap[index].meninggal+'</td>';
                             covids +='  </tr>';
