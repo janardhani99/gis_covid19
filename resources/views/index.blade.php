@@ -76,7 +76,7 @@
 
             <div class="maps" id="map"></div>
 
-            <div class="card-wrapper" style="background: white">
+            
                 <div class="card-left">
                     Color Start
                     <input type="color" value="#E5000D" class="form-control" id="colorStart">
@@ -86,12 +86,9 @@
                     <input type="color" value="#FFFFFF" class="form-control" id="colorEnd">
                 </div>
             
-              <div class="row mt-2">
-                <div class="col-12">
-                  <button class="button" id="btnGenerateColor">Generate Color</button>
-                </div>
+              <div class="card">
+                  <button class="button" id="btnGenerateColor">Generate Color</butto>
               </div>
-            </div>
         </div>
         <br/>
         
