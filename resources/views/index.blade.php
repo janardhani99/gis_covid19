@@ -81,14 +81,12 @@
                     Color Start
                     <input type="color" value="#E5000D" class="form-control" id="colorStart">
                 </div>
-                <div class="card-right">
+                <div class="card-left
                     Color End
                     <input type="color" value="#FFFFFF" class="form-control" id="colorEnd">
                 </div>
+                <button class="button" id="btnGenerateColor">Generate Color</butto>
             
-              <div class="card">
-                  <button class="button" id="btnGenerateColor">Generate Color</butto>
-              </div>
         </div>
         <br/>
         
